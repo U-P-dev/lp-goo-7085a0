@@ -1,593 +1,708 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ほぐしのGoo 荻窪南口店 | マッサージのランディングページ</title>
-  <meta name="description" content="マッサージのほぐしのGoo 荻窪南口店。日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405にて営業中。お気軽にお問い合わせください。">
-  <meta property="og:title" content="ほぐしのGoo 荻窪南口店">
-  <meta property="og:description" content="マッサージのほぐしのGoo 荻窪南口店。日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405">
-  <meta property="og:type" content="website">
-  <meta name="robots" content="noindex, nofollow">
-  <link rel="canonical" href="./">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&amp;family=Noto+Serif+JP:wght@400;500;600;700&amp;family=Gloock:wght@400&amp;display=swap"><style>*,*::before,*::after{box-sizing:border-box}
-body{margin:0;background:#faf7f5;color:#2b2420;font-family:'Noto Sans JP', system-ui, sans-serif;
-  font-size:16px;line-height:2.0;letter-spacing:.05em;
-  -webkit-font-smoothing:antialiased;padding-bottom:0}
-img{max-width:100%;height:auto;display:block}
-a{color:#9c4f63}
-h1,h2,h3{font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;font-weight:600;line-height:1.45;
-  letter-spacing:.02em;margin:0}
-h2{font-size:clamp(22px,3.4vw,30px)}
-h3{font-size:17px}
-p{margin:0}
-.wrap{width:min(1080px,92vw);margin-inline:auto}
-.narrow{width:min(760px,92vw);margin-inline:auto}
-.sec{padding:92px 0}
-.sec--panel{background:#f1eae6}
-.sec__head{margin-bottom:30px}
-.sec__eyebrow{display:block;font-size:13px;letter-spacing:.14em;
-  font-family:'Gloock', Georgia, serif;color:#9c4f63;margin-bottom:10px;font-weight:700}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
-  background:#9c4f63;color:#ffffff;text-decoration:none;font-weight:700;
-  padding:16px 32px;border-radius:999px;border:0;cursor:pointer;font-size:16px;
-  font-family:inherit;transition:transform .2s ease,box-shadow .2s ease}
-.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px -12px #703947}
-.btn--ghost{background:transparent;color:#9c4f63;
-  box-shadow:inset 0 0 0 1.5px #9c4f63}
-.ic{flex:none}
-.vbar{background:#2b2420;color:#ffffff;padding:12px 0;font-size:13px;line-height:1.7}
-.vbar__inner{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
-.vbar__note{opacity:.75;flex:1 1 260px;min-width:0}
-.vbar__list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
-.vbar__link{display:inline-block;color:#ffffff;text-decoration:none;
-  padding:6px 14px;border-radius:999px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.4)}
-.vbar__link[aria-current]{background:#ffffff;color:#2b2420;font-weight:700;box-shadow:none}
-.hero{padding:92px 0 64px;background:#efe3e3;position:relative}
-.hero__grid{display:grid;gap:40px;align-items:center}
-.hero--split .hero__grid{grid-template-columns:1.05fr .95fr}
-.hero--center{text-align:center}
-.hero--center .hero__actions{justify-content:center}
-.hero--cover{background:#703947;color:#fff}
-.hero--cover .hero__lead,.hero--cover .hero__meta{color:rgba(255,255,255,.86)}
-.hero--cover .btn--ghost{color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.72)}
-.hero__kicker{display:inline-block;font-size:14px;font-weight:700;
-  background:#faf7f5;color:#9c4f63;padding:6px 16px;border-radius:999px;
-  margin-bottom:20px}
-.hero--cover .hero__kicker{background:rgba(255,255,255,.16);color:#fff}
-.hero__title{font-size:clamp(28px,5.2vw,50px);margin-bottom:20px}
-.hero__lead{font-size:clamp(16px,1.9vw,19px);color:#665a52;margin-bottom:28px}
-.hero__actions{display:flex;flex-wrap:wrap;gap:14px}
-.hero__meta{margin-top:24px;font-size:14px;color:#665a52}
-.hero__figure{margin:0}
-.hero__figure img{border-radius:6px;width:100%;object-fit:cover;aspect-ratio:4/3}
-.hero__caption{font-size:12px;color:#665a52;margin-top:8px}
-.hero--cover .hero__caption{color:rgba(255,255,255,.7)}
-.facts{background:#faf7f5;border-block:1px solid #e4dad3}
-.facts__list{display:grid;gap:0;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  list-style:none;margin:0;padding:0}
-.facts__item{display:flex;gap:12px;align-items:flex-start;padding:22px 8px}
-.facts__item+.facts__item{border-left:1px solid #e4dad3}
-.facts__icon{color:#9c4f63}
-.facts__label{font-size:12px;letter-spacing:.12em;color:#665a52}
-.facts__value{font-weight:700;font-size:15px}
-.facts__value--sm{font-weight:400;font-size:14px;white-space:pre-line;line-height:1.7}
-.cards{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(248px,1fr))}
-.card{background:#faf7f5;border:1px solid #e4dad3;border-radius:6px;padding:30px 26px}
-.card__icon{color:#9c4f63;margin-bottom:16px}
-.card__title{margin-bottom:10px}
-.card__body{color:#665a52;font-size:15px}
-.symptoms{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  list-style:none;margin:0;padding:0}
-.symptom{display:flex;gap:12px;align-items:flex-start;background:#faf7f5;
-  border:1px solid #e4dad3;border-radius:6px;padding:18px 20px;font-size:15px}
-.symptom__icon{color:#9c4f63;flex:none}
-.rows{display:grid;gap:12px;margin:0;padding:0;list-style:none}
-.row{display:flex;flex-wrap:wrap;gap:6px 20px;justify-content:space-between;
-  align-items:baseline;padding:18px 22px;background:#faf7f5;border:1px solid #e4dad3;
-  border-radius:6px}
-.row__name{font-weight:700}
-.row__note{font-size:13px;color:#665a52;flex-basis:100%}
-.row__value{color:#9c4f63;font-weight:700;white-space:nowrap}
-.price-lead{background:#efe3e3;border-radius:6px;padding:26px 28px;
-  margin-bottom:22px}
-.price-lead__label{font-size:13px;letter-spacing:.12em;color:#9c4f63;font-weight:700}
-.price-lead__value{font-size:clamp(24px,4vw,34px);font-weight:700;color:#9c4f63;
-  font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif}
-.price-lead__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
-.price-lead__actions .btn{font-size:15px;padding:13px 22px}
-.price-note{margin-top:16px;font-size:14px;color:#665a52}
-.steps{display:grid;gap:0;margin:0;padding:0;list-style:none;counter-reset:step}
-.step{display:grid;grid-template-columns:auto 1fr;gap:20px;padding:24px 0;
-  border-bottom:1px solid #e4dad3}
-.step:first-child{border-top:1px solid #e4dad3}
-.step__no{width:44px;height:44px;border-radius:999px;background:#9c4f63;color:#ffffff;
-  display:grid;place-items:center;font-weight:700;font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif}
-.step__title{margin-bottom:6px}
-.step__body{color:#665a52;font-size:15px}
-.people{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.person{background:#faf7f5;border:1px solid #e4dad3;border-radius:6px;padding:26px}
-.person__icon{color:#9c4f63;margin-bottom:14px}
-.person__role{font-size:13px;color:#665a52}
-.person__name{margin:4px 0 10px}
-.person__body{color:#665a52;font-size:15px}
-.gallery{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.gallery figure{margin:0}
-.gallery img{border-radius:6px;width:100%;aspect-ratio:4/5;object-fit:cover}
-.gallery figcaption{font-size:13px;color:#665a52;margin-top:8px}
-.gallery__slot{border-radius:6px;aspect-ratio:4/3;background:#f1eae6;
-  border:1px dashed #e4dad3;display:flex;align-items:center;justify-content:center}
-.gallery__mark{color:#665a52;opacity:.55;display:flex}
-.info{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.info__item{display:flex;gap:14px}
-.info__icon{color:#9c4f63}
-.info__label{font-size:12px;letter-spacing:.16em;color:#665a52;margin-bottom:4px}
-.info__hours{margin:0;white-space:pre-line;font-size:15px}
-.map{margin-top:34px;border:1px solid #e4dad3;border-radius:6px;overflow:hidden;
-  line-height:0}
-.map iframe{width:100%;height:340px;border:0}
-.map-link{margin-top:28px}
-.map-link a{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;
-  border:1px solid #e4dad3;border-radius:999px;color:#9c4f63;font-weight:700;
-  font-size:15px;text-decoration:none;background:#faf7f5}
-.map-link a:hover{border-color:#9c4f63}
-.quotes{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
-.quote{background:#faf7f5;border:1px solid #e4dad3;border-radius:6px;padding:28px}
-.quote__body{color:#665a52;font-size:15px}
-.quote__by{margin-top:14px;font-size:13px;font-weight:700}
-.qa{border-top:1px solid #e4dad3}
-.qa__item{border-bottom:1px solid #e4dad3;padding:24px 0}
-.qa__q{display:flex;gap:12px;font-weight:700}
-.qa__a{display:flex;gap:12px;color:#665a52;margin-top:12px;font-size:15px}
-.qa__mark{color:#9c4f63;font-weight:700;flex:none}
-.cta{background:#9c4f63;color:#ffffff;border-radius:6px;padding:52px 40px;
-  text-align:center}
-.cta h2{color:inherit}
-.cta__body{margin:16px auto 0;max-width:44em;opacity:.9}
-.cta+.form{margin-top:34px}
-.cta__actions{margin-top:28px}
-.cta .btn{background:#faf7f5;color:#9c4f63;border-color:#faf7f5}
-.form{display:grid;gap:18px}
-.field{display:grid;gap:8px}
-.field label{font-size:14px;font-weight:700}
-.field input,.field textarea{font:inherit;color:inherit;background:#faf7f5;
-  border:1px solid #e4dad3;border-radius:6px;padding:14px 16px;width:100%}
-.field textarea{min-height:150px;resize:vertical}
-.field input:focus,.field textarea:focus{outline:2px solid #9c4f63;outline-offset:1px}
-.form__note{font-size:13px;color:#665a52}
-.form__done{display:none;background:#efe3e3;color:#9c4f63;font-weight:700;
-  border-radius:6px;padding:18px 22px}
-.sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#faf7f5;
-  border-top:1px solid #e4dad3;padding:10px 12px;
-  box-shadow:0 -6px 24px -16px rgba(0,0,0,.5)}
-.sticky__inner{display:flex;gap:10px;width:min(680px,96vw);margin-inline:auto}
-.sticky .btn{flex:1;padding:14px 16px;font-size:15px}
-body:has(.sticky){padding-bottom:82px}
-.reserve-rail{display:none}
-.legal{background:#f1eae6;font-size:13px;color:#665a52;padding:56px 0}
-.legal h2{font-size:19px;color:#2b2420;margin-bottom:18px}
-.legal h3{font-size:14px;margin:18px 0 6px;color:#2b2420}
-.h-quiet .sec__head{padding-bottom:18px;border-bottom:1px solid #e4dad3}
-.h-quiet .sec__eyebrow{font-size:12px;letter-spacing:.22em}
-.h-display .sec__head{margin-bottom:38px}
-.h-display .sec__eyebrow{font-size:12px;letter-spacing:.2em;opacity:.72}
-.h-display h2{font-size:clamp(28px,6vw,54px);line-height:1.18;letter-spacing:-.01em}
-.h-soft .sec__head{text-align:center;margin-bottom:36px}
-.h-soft .sec__eyebrow{letter-spacing:.2em}
-.h-soft h2{font-size:clamp(23px,4vw,34px);line-height:1.6}
-.m-rule .sec+.sec:not(.sec--panel){border-top:1px solid #e4dad3}
-.m-diagonal .sec--panel{clip-path:polygon(0 2.6vw,100% 0,100% 100%,0 calc(100% - 2.6vw));
-  padding-block:calc(92px + 2.6vw)}
-.m-diagonal .card{box-shadow:0 18px 40px -30px #703947}
-.m-curve .sec--panel{border-radius:0 0 3vw 3vw;
-  background-image:radial-gradient(#e4dad3 1.1px,transparent 1.2px);
-  background-size:17px 17px}
-.m-curve .sec--panel+.sec{padding-top:calc(92px + 1vw)}
-.hero__media{position:absolute;inset:0;z-index:0;overflow:hidden}
-.hero__media img{width:100%;height:100%;object-fit:cover;border-radius:0;
-  aspect-ratio:auto}
-.hero--masked{position:relative;isolation:isolate}
-.hero--masked .wrap{position:relative;z-index:2}
-.hero--masked::after{content:"";position:absolute;inset:0;z-index:1;
-  background:linear-gradient(100deg,#703947 0%,rgba(0,0,0,.58) 48%,rgba(0,0,0,.3) 100%)}
-.hero--masked,.hero--masked .hero__title,.hero--masked .hero__lead,
-.hero--masked .hero__meta{color:#fff}
-.hero--masked .hero__kicker{background:rgba(255,255,255,.18);color:#fff}
-.hero--masked .hero__caption{color:rgba(255,255,255,.72);position:relative;z-index:2}
-.hero--masked .btn--ghost{color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.7)}
-.mask-dots .hero__media{
-  -webkit-mask-image:radial-gradient(circle,#000 44%,transparent 46%);
-  mask-image:radial-gradient(circle,#000 44%,transparent 46%);
-  -webkit-mask-size:26px 26px;mask-size:26px 26px}
-.mask-dots .hero--cover{background-color:#703947;
-  background-image:radial-gradient(rgba(255,255,255,.13) 44%,transparent 46%);
-  background-size:26px 26px}
-.h-display .hero__title{font-size:clamp(32px,6.4vw,60px);line-height:1.16;
-  letter-spacing:-.01em}
-.h-quiet .hero__title{line-height:1.5;letter-spacing:.05em}
-.h-soft .hero__title{line-height:1.55}
-.m-rule .hero{background:#faf7f5;border-bottom:1px solid #e4dad3}
-.m-rule .hero__kicker{background:#efe3e3}
-.m-curve .hero{border-radius:0 0 4vw 4vw}
-.h-display .cta h2{font-size:clamp(24px,3.4vw,36px);line-height:1.4}
-.mask-circle .hero__figure img{
-  -webkit-mask-image:radial-gradient(circle,#000 66%,transparent 68%);
-  mask-image:radial-gradient(circle,#000 66%,transparent 68%);
-  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
-  -webkit-mask-size:cover;mask-size:cover;
-  aspect-ratio:1;border-radius:0}
-.mask-circle .hero__figure{max-width:520px;margin-inline:auto}
-.g-even .gallery{gap:22px}
-.g-even .gallery__slot{border-radius:0;aspect-ratio:3/4}
-.g-rounded .gallery__slot{border-radius:26px;aspect-ratio:1}
-.g-rounded .card,.g-rounded .symptom,.g-rounded .row,.g-rounded .quote,
-.g-rounded .person{border-radius:24px}
-@media (min-width:760px){
-  .g-asymmetric .gallery{grid-template-columns:repeat(6,1fr);gap:16px}
-  .g-asymmetric .gallery>*{grid-column:span 2}
-  .g-asymmetric .gallery>*:nth-child(3n+1){grid-column:span 3}
-  .g-asymmetric .gallery>*:nth-child(3n+2){grid-column:span 3;margin-top:42px}
-  .g-asymmetric .gallery>*:nth-child(3n+3){grid-column:span 6}
-  .g-asymmetric .gallery__slot{aspect-ratio:16/10}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ほぐしのGoo 荻窪南口店 | マッサージのランディングページ</title>
+
+<style>
+  :root{
+    --paper:#ffffff;
+    --paper-2:#f2f2f2;       
+    --ink:#0d0d0d;
+    --ink-soft:#666666;      
+    --line:#d9d9d9;
+    --line-2:#bdbdbd;
+    --slot-bg:rgba(13,13,13,.04);
+    --slot-line:#b5bcc4;
+    --en:"Roboto Condensed","Arial Narrow",Arial,Helvetica,sans-serif;
+    --jp:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic Medium","Yu Gothic",sans-serif;
+    --ease-wipe:cubic-bezier(.21,1.06,.93,.96);
+    --ease-out:cubic-bezier(.22,1,.36,1);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);color:var(--ink);
+    font-family:var(--jp);font-size:14px;
+    line-height:2.15;letter-spacing:.08em;
+    font-feature-settings:"palt";
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%}
+  a{color:inherit;text-decoration:none}
+  
+  .np{display:inline-block}
+  .ln{display:block}
+
+  
+  .ph{position:relative;overflow:hidden;background:#e8e8e8}
+  .ph::after{ 
+    content:attr(data-slot);position:absolute;right:9px;bottom:7px;z-index:1;
+    font-family:var(--en);font-size:10px;letter-spacing:.16em;
+    color:rgba(13,13,13,.6);background:rgba(255,255,255,.82);
+    padding:3px 9px;border:1px dashed var(--slot-line);
+    line-height:1.6;white-space:nowrap}
+
+  
+  .opening{position:fixed;inset:0;z-index:100;background:#0a0a0a;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:18px;pointer-events:none;
+    animation:opening-up 1s var(--ease-out) 1.15s both}
+  @keyframes opening-up{
+    from{transform:translateY(0)}
+    to{transform:translateY(-101%)}}
+  .opening__name{font-family:var(--en);color:#fff;font-size:15px;
+    letter-spacing:.62em;text-indent:.62em;
+    animation:op-fade .7s ease .15s both}
+  .opening__rule{width:0;height:1px;background:#fff;
+    animation:op-rule 1s var(--ease-out) .35s both}
+  @keyframes op-fade{from{opacity:0}to{opacity:1}}
+  @keyframes op-rule{from{width:0}to{width:172px}}
+
+  
+  header{position:fixed;inset:0 0 auto 0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 5vw;background:rgba(255,255,255,.96);
+    border-bottom:1px solid var(--line);backdrop-filter:blur(6px)}
+  .brand{font-family:var(--en);font-size:17px;letter-spacing:.34em;
+    text-indent:.34em}
+  nav{display:flex;gap:clamp(16px,2.4vw,34px);align-items:center}
+  nav a{font-family:var(--en);font-size:12px;letter-spacing:.2em;color:var(--ink-soft)}
+  nav a:hover{color:var(--ink);transition:color .3s}
+  
+  .reserve-link{display:inline-flex;align-items:center;gap:14px;
+    background:var(--ink);color:#fff;padding:11px 22px;
+    font-family:var(--en);font-size:12px;letter-spacing:.24em;
+    animation:cta-in .7s var(--ease-out) 1.6s both;
+    transition:letter-spacing .4s ease}
+  nav a.reserve-link{color:#fff}
+  .reserve-link:hover{letter-spacing:.34em}
+  @keyframes cta-in{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+  
+  .plus{position:relative;flex:0 0 auto;width:11px;height:11px;
+    transition:transform .5s var(--ease-out)}
+  .plus::before,.plus::after{content:"";position:absolute;background:currentColor}
+  .plus::before{left:0;right:0;top:50%;height:1px}
+  .plus::after{top:0;bottom:0;left:50%;width:1px}
+  .reserve-link:hover .plus,.btn:hover .plus{transform:rotate(90deg)}
+
+  main{overflow:clip}   
+
+  
+  
+  .cover{min-height:100vh;display:flex;flex-direction:column;
+    justify-content:center;gap:clamp(24px,4vh,44px);
+    padding:96px 5vw 48px;max-width:1180px;margin:0 auto}
+  .cover__strip{display:flex;gap:4px;height:min(58vh,560px)}
+  .cover__strip .ph{height:100%}
+  .cover__strip .ph:nth-child(1){flex:1.35}
+  .cover__strip .ph:nth-child(2){flex:1;height:82%;align-self:flex-start}
+  .cover__strip .ph:nth-child(3){flex:1.1}
+  .cover__meta{display:flex;align-items:flex-end;justify-content:space-between;
+    gap:clamp(20px,4vw,60px);flex-wrap:wrap}
+  .issue{display:flex;align-items:baseline;gap:.5em;font-family:var(--en)}
+  .issue__label{font-size:12px;letter-spacing:.34em;color:var(--ink-soft)}
+  
+  .issue__no{font-size:clamp(30px,4.4vw,52px);line-height:1;letter-spacing:.26em}
+  .issue__sub{font-size:12px;letter-spacing:.28em;color:var(--ink-soft)}
+  .cover__who{font-size:13px;letter-spacing:.16em;text-align:right}
+  .cover__who .np+.np{margin-left:.6em}
+
+  
+  .statement{max-width:1180px;margin:0 auto;padding:clamp(80px,12vh,150px) 5vw 0}
+  .statement__en{font-family:var(--en);font-weight:700;
+    font-size:clamp(24px,5.4vw,62px);line-height:1.34;letter-spacing:.26em}
+  
+  .u{position:relative;display:inline-block}
+  .u::after{content:"";position:absolute;left:0;right:.26em;bottom:-.14em;
+    height:.05em;background:var(--ink);transform:scaleX(0);transform-origin:left;
+    animation:draw 1.5s var(--ease-out) 2.1s both}
+  .ln+.ln .u::after{animation-delay:2.45s}
+  @keyframes draw{to{transform:scaleX(1)}}
+  .statement .lead{margin-top:clamp(26px,4vh,44px)}
+
+  
+  .sec{position:relative;--sec-bg:var(--paper);--ghost:#ececec;
+    padding:clamp(96px,13vh,160px) 0}
+  .sec--alt{--sec-bg:var(--paper-2);--ghost:#e3e3e3;background:var(--paper-2)}
+  .sec__inner{max-width:1180px;margin:0 auto;padding:0 5vw;
+    display:grid;grid-template-columns:1fr clamp(52px,6vw,88px);
+    column-gap:clamp(14px,2.4vw,40px)}
+  .sec__head{grid-column:1;grid-row:1;position:relative}
+  .sec__body{grid-column:1;grid-row:2;margin-top:clamp(34px,5vh,58px)}
+  
+  .num{position:absolute;z-index:0;top:-.36em;left:-.06em;
+    font-family:var(--en);font-weight:700;
+    font-size:clamp(140px,22vw,300px);line-height:.74;letter-spacing:.02em;
+    color:var(--ghost);pointer-events:none;user-select:none;
+    opacity:0;transform:translateY(24px);
+    transition:opacity 1.1s ease,transform 1.2s var(--ease-out)}
+  .num.show{opacity:1;transform:none}
+  .sec__no,.sec__en,.sec__jp{position:relative;z-index:1}
+  .sec__no{font-family:var(--en);font-size:11px;letter-spacing:.34em;
+    color:var(--ink-soft)}
+  .sec__en{font-family:var(--en);font-weight:700;
+    font-size:clamp(32px,6vw,78px);line-height:1.05;letter-spacing:.24em;
+    margin-top:6px}
+  .sec__jp{font-size:12.5px;letter-spacing:.28em;color:var(--ink-soft);margin-top:10px}
+
+  
+  .rail{grid-column:2;grid-row:1/span 2;justify-self:center;align-self:start;
+    position:relative;overflow:hidden;display:flex;flex-direction:column;
+    align-items:center;padding-top:4px}
+  .rail::after{content:"";position:absolute;inset:0;background:var(--sec-bg);
+    transform:translateY(0);transition:transform 1.2s var(--ease-wipe)}
+  .rail.show::after{transform:translateY(101%)}
+  .rail__en{writing-mode:vertical-rl;white-space:nowrap;
+    font-family:var(--en);font-size:12px;letter-spacing:.34em;
+    color:var(--ink-soft)}
+  .rail__line{width:1px;height:min(340px,26vh);background:var(--line-2);
+    margin-top:20px}
+
+  
+  .lead{font-size:14px;line-height:2.3;max-width:36em}
+  .lead--wide{max-width:38em}
+
+  
+  .gallery{display:grid;grid-template-columns:repeat(12,1fr);
+    column-gap:clamp(12px,2vw,28px);row-gap:clamp(22px,4vw,54px);
+    align-items:start;margin-top:clamp(30px,5vh,56px)}
+  .gallery figure{position:relative}
+  .g1{grid-column:1/7}
+  .g2{grid-column:8/13;margin-top:clamp(30px,7vw,104px)}
+  
+  .g3{grid-column:2/13;width:calc(100% + clamp(18px,4vw,56px))}
+  .g4{grid-column:1/6}
+  .g5{grid-column:7/13;margin-top:clamp(20px,4vw,64px)}
+  .g1 .ph,.g5 .ph{aspect-ratio:3/4}
+  .g2 .ph,.g4 .ph{aspect-ratio:1/1}
+  .g3 .ph{aspect-ratio:3/2}
+  .cap{display:flex;justify-content:space-between;gap:1em;margin-top:11px;
+    font-family:var(--en);font-size:11px;letter-spacing:.24em;color:var(--ink-soft)}
+  .cap .jp{font-family:var(--jp);letter-spacing:.16em}
+
+  
+  .wipe::before{content:"";position:absolute;inset:-2% -34%;z-index:2;
+    background:var(--ink);transform:skewX(-19deg) translateX(0);
+    transition:transform 1.05s var(--ease-wipe)}
+  .wipe.show::before{transform:skewX(-19deg) translateX(152%)}
+  .wipe-d1.show::before{transition-delay:.09s}
+  .wipe-d2.show::before{transition-delay:.18s}
+  .wipe-d3.show::before{transition-delay:.27s}
+
+  
+  .menu{list-style:none;margin-top:clamp(24px,4vh,44px)}
+  .card{display:grid;grid-template-columns:1fr auto;
+    column-gap:clamp(16px,3vw,44px);
+    border-top:1px solid var(--line-2);padding:22px 0 24px}
+  .card:last-of-type{border-bottom:1px solid var(--line-2)}
+  .card__head{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+  .card__en{font-family:var(--en);font-size:11px;letter-spacing:.26em;
+    color:var(--ink-soft)}
+  .card h3{font-size:15px;font-weight:600;letter-spacing:.14em}
+  .card p{grid-column:1;font-size:12.5px;line-height:2.05;margin-top:7px;
+    color:var(--ink-soft);max-width:34em}
+  .card__pr{grid-column:2;grid-row:1/3;text-align:right;line-height:1.35;
+    font-family:var(--en);font-size:20px;letter-spacing:.1em;white-space:nowrap}
+  .card__time{display:block;margin-top:2px;font-family:var(--jp);
+    font-size:11px;letter-spacing:.14em;color:var(--ink-soft)}
+  .menu-note{margin-top:22px;font-size:12px;color:var(--ink-soft);max-width:40em}
+
+  
+  .concept{display:grid;grid-template-columns:1fr 1fr;
+    gap:clamp(28px,5vw,72px);align-items:start;margin-top:clamp(24px,4vh,44px)}
+  .concept__h{font-size:clamp(17px,2vw,22px);font-weight:600;line-height:2;
+    letter-spacing:.2em;margin-bottom:20px}
+  .concept__ph{width:calc(100% + clamp(18px,4vw,56px));aspect-ratio:3/2;
+    margin-top:clamp(0px,3vw,38px)}
+
+  
+  .people{display:grid;grid-template-columns:1fr 1fr;
+    gap:clamp(26px,5vw,70px);margin-top:clamp(24px,4vh,44px);max-width:820px}
+  .person .ph{aspect-ratio:3/4}
+  .person__name{margin-top:16px;font-size:15px;font-weight:600;letter-spacing:.16em}
+  .person__en{font-family:var(--en);font-size:11px;letter-spacing:.28em;
+    color:var(--ink-soft);margin-top:5px}
+  .person__note{font-size:12.5px;line-height:2.05;color:var(--ink-soft);margin-top:10px}
+
+  
+  .info{display:grid;grid-template-columns:1fr 1fr;
+    gap:clamp(28px,5vw,66px);align-items:start;margin-top:clamp(24px,4vh,44px)}
+  .info dl div{display:flex;border-bottom:1px solid var(--line);padding:12px 2px}
+  .info dt{flex:0 0 6.6em;color:var(--ink-soft);font-size:12.5px}
+  .info dd{flex:1;font-size:13px}
+  .info .ph{aspect-ratio:4/3}
+
+  
+  .reserve{background:var(--ink);color:#fff;
+    padding:clamp(84px,12vh,140px) 5vw;text-align:center;margin-top:0}
+  .reserve__en{font-family:var(--en);font-weight:700;
+    font-size:clamp(30px,5vw,64px);line-height:1.1;letter-spacing:.26em;
+    text-indent:.26em}
+  .reserve__jp{margin-top:18px;font-size:13px;letter-spacing:.16em;
+    color:rgba(255,255,255,.82)}
+  .btn{display:inline-flex;align-items:center;gap:26px;margin-top:34px;
+    border:1px solid #fff;color:#fff;padding:22px clamp(34px,7vw,74px);
+    font-family:var(--en);font-size:16px;letter-spacing:.26em;
+    transition:letter-spacing .4s ease,background-color .4s ease,color .4s ease}
+  .btn:hover{background:#fff;color:var(--ink);letter-spacing:.36em}
+  .reserve__sub{margin-top:26px;font-size:12.5px;letter-spacing:.14em;
+    color:rgba(255,255,255,.82);line-height:2.2}
+
+  
+  footer{padding:60px 5vw 104px;text-align:center;background:var(--paper)}
+  footer .brand{display:block;margin-bottom:14px}
+  footer p{font-size:12.5px;color:var(--ink-soft);line-height:2.2}
+  footer small{display:block;margin-top:26px;font-family:var(--en);
+    font-size:10px;letter-spacing:.26em;color:var(--ink-soft)}
+
+  
+  .fade-up{opacity:0;transform:translateY(46px);
+    transition:opacity .9s ease,transform 1s var(--ease-out)}
+  .fade-up.show{opacity:1;transform:none}
+
+  
+  .sp-bar{display:none}
+  @media(max-width:820px){
+    nav a:not(.reserve-link){display:none}
+    
+    .cover{padding:88px 5vw 96px;gap:26px}
+    .cover__strip{display:grid;grid-template-columns:1fr 1fr;height:auto;gap:4px}
+    .cover__strip .ph{height:auto;aspect-ratio:1/1}
+    .cover__strip .ph:nth-child(1){grid-column:1/3;aspect-ratio:4/3}
+    .cover__strip .ph:nth-child(2){height:auto;align-self:auto}
+    .cover__meta{flex-direction:column;align-items:flex-start;gap:14px}
+    .cover__who{text-align:left}
+    .sec__inner{display:block}
+    .rail{display:none}          
+    .num{font-size:clamp(110px,30vw,150px);top:-.3em}
+    
+    .gallery{display:flex;flex-direction:column;align-items:stretch;gap:30px}
+    .g2,.g5{margin-top:0}
+    .g3{width:100%}
+    .card{grid-template-columns:1fr auto}
+    .card__pr{font-size:18px}
+    .concept,.people,.info{grid-template-columns:1fr}
+    .concept__ph{width:100%;margin-top:0}
+    .btn{width:100%;justify-content:center;gap:18px;padding:20px 0}
+    .sp-bar{display:flex;position:fixed;inset:auto 0 0 0;z-index:60}
+    .sp-bar a{flex:1;text-align:center;padding:15px 0;font-size:13px;
+      letter-spacing:.2em;color:#fff;background:var(--ink)}
+    .sp-bar a+a{border-left:1px solid rgba(255,255,255,.28)}
+    body{padding-bottom:52px}
+  }
+
+  
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+    .opening{display:none}
+    .fade-up,.num{opacity:1;transform:none}
+    .u::after{transform:none}
+    .opening__rule{width:172px}
+    .wipe::before{display:none}   
+    .rail::after{display:none}    
+    html{scroll-behavior:auto}
+  }
+
+  @media(max-width:820px){}
+  .spec{max-width:1180px;margin:80px auto 60px;padding:32px 5vw;
+    border:1px dashed var(--slot-line);background:var(--slot-bg);
+    font-size:12.5px;line-height:2.1;color:var(--ink);overflow-x:auto}
+  .spec h3{font-size:13px;letter-spacing:.2em;margin-bottom:10px}
+  .spec table{border-collapse:collapse;width:100%;margin:10px 0}
+  .spec td,.spec th{border:1px solid var(--line-2);padding:5px 12px;
+    text-align:left;font-weight:normal;font-size:12px}
+
+
+.ph::after,.ph::before{content:none!important;display:none!important}
+.ph{border:0!important;background:transparent!important}
+.ph>img,.ph .slide>img{width:100%;height:100%;object-fit:cover;display:block}
+.ph .slide{background-size:cover;background-position:center}
+</style>
+<meta name="description" content="マッサージのほぐしのGoo 荻窪南口店。日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405にて営業中。お気軽にお問い合わせください。">
+<meta property="og:title" content="ほぐしのGoo 荻窪南口店">
+<meta property="og:description" content="マッサージのほぐしのGoo 荻窪南口店。日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405">
+<meta property="og:type" content="website">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="./">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "ほぐしのGoo 荻窪南口店", "address": {"@type": "PostalAddress", "streetAddress": "日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405"}, "telephone": "050-1784-7378"}</script>
+<style>
+nav.vbar{position:relative !important;z-index:10000 !important;display:block !important;
+  background:#1c1c1c !important;color:#fff !important;margin:0 !important;
+  padding:12px 0 !important;font-size:13px !important;line-height:1.7 !important;
+  font-family:sans-serif !important;max-width:none !important;
+  opacity:1 !important;visibility:visible !important;transform:none !important}
+nav.vbar .vbar__inner{max-width:1080px !important;margin:0 auto !important;
+  padding:0 20px !important;display:flex !important;flex-wrap:wrap !important;
+  gap:10px 18px !important;align-items:center !important;width:auto !important}
+nav.vbar .vbar__note{opacity:.75 !important;flex:1 1 260px !important;
+  min-width:0 !important;color:#fff !important}
+nav.vbar .vbar__list{display:flex !important;flex-wrap:wrap !important;gap:8px !important;
+  list-style:none !important;margin:0 !important;padding:0 !important}
+nav.vbar .vbar__list li{display:block !important;margin:0 !important;padding:0 !important;
+  list-style:none !important;width:auto !important}
+nav.vbar .vbar__link{display:inline-block !important;color:#fff !important;
+  text-decoration:none !important;padding:6px 14px !important;font-size:13px !important;
+  border-radius:999px !important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.4) !important;
+  background:transparent !important;opacity:1 !important;visibility:visible !important;
+  transform:none !important;letter-spacing:normal !important}
+nav.vbar .vbar__link[aria-current]{background:#fff !important;color:#1c1c1c !important;
+  font-weight:700 !important;box-shadow:none !important}
+@media (max-width:520px){
+  nav.vbar{padding:8px 0 !important;font-size:12px !important;line-height:1.5 !important}
+  nav.vbar .vbar__inner{padding:0 14px !important;gap:8px 10px !important}
+  nav.vbar .vbar__link{padding:5px 10px !important;font-size:12px !important}
 }
-#statement{padding:calc(92px + 24px) 0}
-.statement__text{font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;font-size:clamp(19px,2.6vw,27px);
-  line-height:2.3;letter-spacing:.09em;text-align:center;max-width:30em;
-  margin-inline:auto}
-.d-seiji .statement__text::first-letter{font-size:2em;color:#9c4f63;line-height:1}
-.feature{display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.feature__slot{border-top:1px solid #2b2420;padding-top:20px;min-height:180px;
-  display:flex;flex-direction:column;gap:20px}
-.feature__no{font-family:'Gloock', Georgia, serif;font-size:36px;line-height:1;color:#2b2420}
-.feature__lines{display:grid;gap:14px;margin-top:auto;padding-bottom:8px}
-.feature__lines span{display:block;height:1px;background:#e4dad3}
-.feature__lines span:nth-child(2){width:82%}
-.feature__lines span:nth-child(3){width:58%}
-.staff-plan{display:grid;gap:14px;list-style:none;margin:0;padding:0;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.staff-plan__item{display:flex;gap:12px;align-items:center;background:#faf7f5;
-  border:1px solid #e4dad3;border-radius:6px;padding:20px 22px;
-  font-weight:700;font-size:15px}
-.staff-plan__icon{color:#9c4f63;display:flex}
-.hero__panel{background:#faf7f5;border:1px solid #e4dad3;border-radius:6px;
-  padding:28px;box-shadow:0 26px 52px -36px rgba(0,0,0,.45)}
-.panel__label{font-size:13px;letter-spacing:.14em;font-weight:700;
-  color:#9c4f63;margin-bottom:14px}
-.panel__phone{display:flex;align-items:center;gap:12px;font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;
-  font-size:clamp(24px,3vw,31px);font-weight:700;margin-bottom:18px;
-  white-space:nowrap}
-.panel__note{font-size:14px;color:#665a52;margin-bottom:16px}
-.panel__actions{display:grid;gap:10px}
-.panel__actions .btn{width:100%}
-.hero__mosaic{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
-.hero__cell{margin:0;overflow:hidden;border-radius:6px;background:#f1eae6;
-  border:1px dashed #e4dad3;display:flex;align-items:center;justify-content:center;
-  min-height:150px}
-.hero__cell:nth-child(4n+1),.hero__cell:nth-child(4n){grid-column:span 4}
-.hero__cell:nth-child(4n+2),.hero__cell:nth-child(4n+3){grid-column:span 2;
-  min-height:120px}
-.hero__cell img{width:100%;height:100%;object-fit:cover;border-radius:0;
-  aspect-ratio:auto}
-.hero--statement{background:#faf7f5;text-align:center;
-  padding:calc(92px + 36px) 0 calc(92px - 8px)}
-.hero--statement .hero__actions{justify-content:center}
-.hero--statement .hero__title{font-size:clamp(28px,4.6vw,52px);line-height:1.7;
-  letter-spacing:.12em}
-.hero--statement .hero__lead{max-width:34em;margin-inline:auto}
-.hero--statement .hero__figure{max-width:560px;margin:36px auto 0}
-.hero--editorial{background:#faf7f5;border-bottom:1px solid #e4dad3}
-.hero--editorial .hero__kicker{background:transparent;border-radius:0;
-  padding:0 0 12px;display:block;border-bottom:1px solid #e4dad3;
-  font-family:'Gloock', Georgia, serif;letter-spacing:.18em}
-.hero--editorial .hero__title{font-size:clamp(34px,7.2vw,74px);line-height:1.16;
-  letter-spacing:-.01em}
-.hero--mosaic .hero__grid{grid-template-columns:.9fr 1.1fr;align-items:center}
-.hero--pricing .hero__grid{grid-template-columns:1.08fr .92fr}
-.hero--quiet{background:#faf7f5}
-.hero--quiet .hero__grid{grid-template-columns:.95fr 1.05fr;
-  min-height:clamp(420px,58vh,680px)}
-.hero__brand{font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;font-size:clamp(30px,4.4vw,52px);
-  letter-spacing:.16em;line-height:1.4;margin-bottom:22px;
-  word-break:keep-all;overflow-wrap:break-word}
-.hero--quiet .hero__title{font-size:clamp(16px,1.9vw,20px);font-weight:400;
-  letter-spacing:.12em;line-height:2.2;margin-bottom:10px}
-.hero--quiet .hero__lead{font-size:14px;margin-bottom:22px}
-.hero--quiet .hero__figure img{aspect-ratio:3/4}
-.hero--words{background:#faf7f5;text-align:center;
-  padding:calc(92px + 48px) 0 calc(92px + 20px)}
-.hero--words .hero__title{font-size:clamp(28px,4.8vw,54px);line-height:1.9;
-  letter-spacing:.15em;max-width:24em;margin-inline:auto;margin-bottom:26px}
-.hero--words .hero__lead{max-width:32em;margin-inline:auto}
-.hero__sign{margin-top:36px;font-size:14px;letter-spacing:.24em;color:#665a52}
-.hero__face{background:#703947;color:#fff;border-radius:6px;
-  aspect-ratio:4/3;display:grid;place-items:center;padding:28px;min-height:280px}
-.hero__face-name{font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;font-size:clamp(22px,2.8vw,36px);
-  letter-spacing:.2em;line-height:1.8;text-align:center;margin:0;
-  word-break:keep-all;overflow-wrap:break-word}
-.hero--quiet .hero__face{aspect-ratio:3/4}
-.hero--booking{padding-bottom:0}
-.hero__band{margin:30px 0 0;width:100%}
-.hero__band img{display:block;width:100%;height:clamp(180px,26vw,300px);
-  object-fit:cover}
-.hero__band .hero__caption{padding:6px 24px 0;margin-top:0}
-.hero__strip{background:#703947;color:#fff;margin-top:30px}
-.hero__strip-in{display:flex;align-items:center;flex-wrap:wrap;gap:14px 26px;
-  padding-top:24px;padding-bottom:24px}
-.strip__label{font-size:13px;letter-spacing:.14em;margin:0}
-.strip__phone{display:inline-flex;align-items:center;gap:10px;color:#fff;
-  font-size:clamp(20px,2.4vw,27px);font-weight:700;text-decoration:none;
-  letter-spacing:.04em}
-.strip__actions{display:flex;gap:12px;flex-wrap:wrap;margin-left:auto}
-.strip__actions .btn--ghost{color:#fff;
-  box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.72)}
-.hero--banner{background:#faf7f5;padding-bottom:56px}
-.hero__topline{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;
-  margin-bottom:22px}
-.hero--banner .hero__brand{font-size:clamp(19px,2.4vw,28px);letter-spacing:.2em;
-  margin-bottom:0}
-.hero--banner .hero__band{margin-top:0}
-.hero--banner .hero__band img{height:auto;aspect-ratio:2/1;max-height:460px}
-.hero__band--face{background:#703947;width:100%;aspect-ratio:21/9;
-  max-height:380px}
-.hero--banner .hero__title{margin-top:34px;font-size:clamp(24px,3.2vw,38px)}
-.hero--directory .hero__grid{grid-template-columns:1.15fr .85fr;
-  align-items:stretch;margin-top:28px}
-.hero--directory .hero__figure{height:100%;margin:0}
-.hero--directory .hero__figure img{height:100%;min-height:300px;object-fit:cover}
-.hero--directory .hero__face{height:100%;aspect-ratio:auto}
-.hero__dir{display:flex;flex-direction:column;border-top:1px solid #e4dad3}
-.dir__row{flex:1;display:flex;align-items:center;gap:14px;padding:20px 6px;
-  border-bottom:1px solid #e4dad3;text-decoration:none;color:#2b2420;min-height:64px}
-.dir__row::after{content:"→";font-family:'Gloock', Georgia, serif;flex:none;margin-left:4px}
-.dir__ja{font-weight:600;letter-spacing:.06em}
-.dir__en{font-family:'Gloock', Georgia, serif;font-size:12px;letter-spacing:.16em;
-  color:#665a52;margin-left:auto}
-.dir__row--cta{background:#9c4f63;color:#ffffff;border-bottom:0;
-  padding-inline:18px;border-radius:999px}
-.dir__row--cta .dir__en{color:inherit;opacity:.85}
-.mn-rows .rows{gap:12px}
-.rows--grand{gap:0}
-.rows--grand .row{background:transparent;border:0;border-bottom:1px solid #e4dad3;
-  border-radius:0;padding:20px 6px}
-.rows--grand .row:first-child{border-top:2px solid #2b2420}
-.row--slot{min-height:58px}
-.row__value--slot{flex:0 1 170px;min-width:96px;align-self:center;
-  border-bottom:2px dotted #e4dad3;height:1.05em}
-.mn-grand #menu h2{font-size:clamp(26px,4.4vw,40px)}
-.mn-grand #menu .row__name{font-size:16px}
-.mn-grand #menu .row__value{font-size:18px}
-.mn-compact #menu{padding:calc(92px * .55) 0}
-.mn-compact #menu .sec__head{margin-bottom:16px}
-.mn-compact #menu h2{font-size:18px}
-m-* の規則に勝つ */
-.mn-compact #menu .sec__eyebrow{font-size:13px}
-.mn-compact #menu .sec__head::before,
-.mn-compact #menu .sec__head::after{font-size:40px}
-.mn-compact #menu .rows{gap:0}
-.mn-compact #menu .row{background:transparent;border:0;
-  border-bottom:1px solid #e4dad3;border-radius:0;padding:12px 4px;font-size:14px}
-.mn-compact #menu .row__value{font-size:14px}
-.mn-compact #menu .price-lead{background:transparent;border:1px solid #e4dad3;
-  padding:18px 20px}
-.mn-compact #menu .price-lead__value{font-size:18px}
-.mn-compact #menu .price-note{font-size:13px}
-.h-engrand .sec__head{margin-bottom:32px}
-.h-engrand .sec__eyebrow{font-family:'Gloock', Georgia, serif;font-weight:400;
-  font-size:clamp(34px,5.6vw,56px);letter-spacing:.05em;line-height:1.05;
-  color:#2b2420;margin-bottom:8px}
-.h-engrand .sec__head h2{font-size:15px;letter-spacing:.18em;color:#665a52}
-.h-numbered{counter-reset:secno}
-.h-numbered .sec{counter-increment:secno}
-.h-numbered .sec__head{position:relative}
-.h-numbered .sec__head>*{position:relative}
-.h-numbered .sec__eyebrow::before{content:counter(secno,decimal-leading-zero) " ";
-  font-family:'Gloock', Georgia, serif;letter-spacing:.06em}
-.h-numbered .sec__head::after{content:counter(secno,decimal-leading-zero);
-  position:absolute;right:0;top:-.38em;font-family:'Gloock', Georgia, serif;font-weight:600;
-  font-size:clamp(64px,9vw,108px);line-height:1;color:#2b2420;opacity:.07;
-  pointer-events:none}
-.h-handmade .sec__head h2{display:inline;padding:0 .18em;
-  background-image:linear-gradient(transparent 64%,#f0e4dc 0);
-  -webkit-box-decoration-break:clone;box-decoration-break:clone}
-.h-handmade .sec__eyebrow{font-family:'Gloock', Georgia, serif;font-size:21px;letter-spacing:.1em}
-.h-firstletter .sec__head h2::first-letter{color:#9c4f63}
-.h-firstletter .hero__title::first-letter{color:#9c4f63}
-.h-firstletter .hero--cover .hero__title::first-letter{color:#fff}
-.m-ghost .sec__head{position:relative;overflow:hidden;padding-top:26px}
-.m-ghost .sec__head>*{position:relative}
-.m-ghost .sec__head::before{content:attr(data-en);position:absolute;left:-.04em;
-  top:0;font-family:'Gloock', Georgia, serif;font-size:clamp(58px,9vw,110px);line-height:.92;
-  font-weight:400;letter-spacing:.04em;color:#2b2420;opacity:.05;white-space:nowrap;
-  pointer-events:none}
-.m-corner .card,.m-corner .symptom,.m-corner .quote,.m-corner .person,
-.m-corner .gallery__slot,.m-corner .hero__panel,.m-corner .hero__figure img,
-.m-corner .gallery img{border-radius:0 26px 0 0}
-.m-marker .sec+.sec:not(.sec--panel){border-top:1px dotted #e4dad3}
-.m-marker .card,.m-marker .symptom,.m-marker .row,.m-marker .quote,
-.m-marker .person,.m-marker .gallery__slot,
-.m-marker .staff-plan__item{border-style:dotted}
-.m-marker .step,.m-marker .qa__item{border-bottom-style:dotted}
-.m-marker .step:first-child{border-top-style:dotted}
-.m-marker .qa{border-top-style:dotted}
-.m-invert #contact,.cl-invert #contact{background:#f1eae6;color:#2b2420}
-.m-invert #contact .sec__eyebrow,
-.cl-invert #contact .sec__eyebrow{color:#2b2420}
-.m-invert #contact .field input,.m-invert #contact .field textarea,
-.cl-invert #contact .field input,.cl-invert #contact .field textarea{
-  background:#f1eae6;color:#2b2420}
-.m-invert #contact .form__note,
-.cl-invert #contact .form__note{color:inherit;opacity:.72}
-.m-invert #contact .btn--ghost,
-.cl-invert #contact .btn--ghost{color:#2b2420;
-  box-shadow:inset 0 0 0 1.5px #2b2420}
-.access-duo{display:grid;grid-template-columns:1fr 1fr;gap:30px;
-  align-items:stretch}
-.access-duo .info{grid-template-columns:1fr;gap:22px}
-.access-duo .map{margin-top:0;height:100%}
-.access-duo .map iframe{height:100%;min-height:320px}
-.cl-mapfirst #contact .cta{background:transparent;color:#2b2420;border-radius:0;
-  border-top:1px solid #e4dad3;border-bottom:1px solid #e4dad3;padding:38px 20px}
-.cl-mapfirst #contact .cta .btn{background:#9c4f63;color:#ffffff;
-  border-color:#9c4f63}
-.access-table{display:grid;grid-template-columns:130px 1fr;gap:16px 24px;
-  max-width:560px;margin:0 auto;border-top:1px solid #e4dad3;padding-top:28px}
-.access-table dt{font-size:13px;letter-spacing:.14em;color:#665a52;
-  padding-top:2px}
-.access-table dd{margin:0}
-.m-bands .sec--panel{background:#f1eae6;color:#2b2420}
-.m-bands .sec--panel .sec__eyebrow{color:inherit}
-.m-bands .sec--panel .card,.m-bands .sec--panel .symptom,
-.m-bands .sec--panel .row,.m-bands .sec--panel .quote,
-.m-bands .sec--panel .person{color:#2b2420}
-.m-bands .sec--panel .price-note,.m-bands .sec--panel .qa__a{color:inherit}
-.m-bands .sec--panel .qa__mark{color:inherit}
-.m-bands .sec--panel .rows--grand .row,
-.m-bands .sec--panel .rows--grand .row__value,
-.m-bands .sec--panel .rows--grand .row__note{color:#2b2420}
-.m-bands .sec--panel .rows--grand .row:first-child{border-top-color:#2b2420}
-.g-diamond #gallery{overflow:hidden}
-.g-diamond .gallery{padding-inline:26px}
-.g-diamond .gallery__slot{transform:skewX(-8deg);border-radius:0;aspect-ratio:3/4}
-.g-diamond .gallery__slot>*{transform:skewX(8deg)}
-@media (min-width:760px){
-  .g-diamond .gallery{grid-template-columns:repeat(4,1fr);gap:18px}
-  
-  .g-magazine .gallery{grid-template-columns:repeat(6,1fr);gap:18px}
-  .g-magazine .gallery__slot{aspect-ratio:4/3}
-  .g-magazine .gallery>*:nth-child(5n+1){grid-column:span 6}
-  .g-magazine .gallery__slot:nth-child(5n+1){aspect-ratio:21/9}
-  .g-magazine .gallery>*:nth-child(5n+2),
-  .g-magazine .gallery>*:nth-child(5n+3){grid-column:span 3}
-  .g-magazine .gallery>*:nth-child(5n+4){grid-column:span 2}
-  .g-magazine .gallery>*:nth-child(5n){grid-column:span 4}
-  
-  .g-offset .gallery{grid-template-columns:repeat(2,1fr);gap:26px 34px}
-  .g-offset .gallery>*:nth-child(2n){margin-top:56px}
-  .g-offset .gallery__slot{aspect-ratio:3/4}
-}
-.dark .hero::after{content:"";position:absolute;inset:0;pointer-events:none;
-  opacity:.14;background-size:130px 130px;
-  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='130' height='130'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='130' height='130' filter='url(%23g)' opacity='0.5'/></svg>")}
-.js .reveal{opacity:0;transform:translateY(18px)}
-.js .reveal.is-in{opacity:1;transform:none;
-  transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.3,1)}
-@media (prefers-reduced-motion:reduce){
-  .js .reveal{opacity:1;transform:none}
-  .btn:hover{transform:none}
-}
-@media (max-width:820px){
-  .hero--split .hero__grid{grid-template-columns:1fr}
-  .cta{padding:40px 24px}
-  .sec{padding:64px 0}
-  .hero{padding:56px 0 48px}
-  .facts__item+.facts__item{border-left:0;border-top:1px solid #e4dad3}
-  .step{grid-template-columns:1fr;gap:12px}
-  
-  .hero--mosaic .hero__grid,.hero--pricing .hero__grid,
-  .hero--directory .hero__grid{grid-template-columns:1fr}
-  .hero--quiet .hero__grid{grid-template-columns:1fr;min-height:auto}
-  
-  .hero__strip-in{flex-direction:column;align-items:flex-start;gap:12px}
-  .strip__actions{margin-left:0}
-  .hero--banner .hero__band img{aspect-ratio:16/10}
-  .hero__band--face{aspect-ratio:16/10}
-  
-  .access-duo{grid-template-columns:1fr}
-  .access-duo .map iframe{height:300px}
-  
-  .hero--quiet .hero__figure img{aspect-ratio:16/10}
-  .hero__face,.hero--quiet .hero__face{aspect-ratio:16/10;min-height:180px}
-  .hero--words{padding:96px 0 72px}
-  .hero__mosaic{grid-template-columns:repeat(2,1fr)}
-  .hero__mosaic .hero__cell{grid-column:auto;min-height:110px}
-  .hero__mosaic .hero__cell:first-child{grid-column:span 2;min-height:150px}
-  
-  .g-diamond .gallery{grid-template-columns:repeat(2,1fr);gap:12px;
-    padding-inline:12px}
-  
-  .m-ghost .sec__head::before{font-size:52px}
-  .h-numbered .sec__head::after{font-size:56px}
-  .statement__text{line-height:2.1}
-  
-  #statement{padding:72px 0}
-}
-@media (min-width:821px){
-  .sticky{display:none}
-  body:has(.sticky){padding-bottom:0}
-  
-  .reserve-rail{display:block;position:sticky;top:0;z-index:70;background:#faf7f5;
-    border-bottom:1px solid #e4dad3}
-  .reserve-rail__inner{display:flex;align-items:center;justify-content:space-between;
-    gap:18px;padding:10px 0}
-  .reserve-rail__name{font-family:'Noto Serif JP', 'Hiragino Mincho ProN', serif;letter-spacing:.18em;font-size:15px}
-  .reserve-rail__actions{display:flex;gap:10px}
-  .reserve-rail .btn{padding:9px 18px;font-size:14px}
-  
-  .h-vertical .sec>.reveal{display:grid;grid-template-columns:76px 1fr;
-    gap:0 34px;align-items:start}
-  .h-vertical .sec>.reveal>*:not(.sec__head){grid-column:2}
-  .h-vertical .sec>.reveal>.sec__head{grid-column:1;writing-mode:vertical-rl;
-    margin-bottom:0;min-height:210px}
-  .h-vertical .sec>.reveal>.sec__head h2{font-size:clamp(20px,2vw,25px);
-    letter-spacing:.3em}
-  .h-vertical .sec>.reveal>.sec__head .sec__eyebrow{margin:0 0 0 12px;
-    letter-spacing:.2em}
-  
-  .h-vertical .cards:has(> :last-child:nth-child(4)){
-    grid-template-columns:repeat(2,minmax(0,1fr))}
-  
-  .m-ghost.h-vertical .sec>.reveal>.sec__head::before{font-size:60px}
-  
-  .d-seijaku #statement .reveal{display:flex;justify-content:center}
-  .d-seijaku .statement__text{writing-mode:vertical-rl;max-height:460px;
-    min-height:300px;text-align:start;line-height:2.6}
-}</style><script>document.documentElement.classList.add('js');</script>
-  
-  
-  
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "ほぐしのGoo 荻窪南口店", "address": {"@type": "PostalAddress", "streetAddress": "日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405"}, "telephone": "050-1784-7378"}</script>
-  
+#contact{padding:72px 20px}
+#contact .narrow{max-width:560px;margin:0 auto}
+#contact .cta h2{font-size:24px;margin:0 0 12px}
+#contact .cta__body{margin:0 0 24px;line-height:1.9}
+#contact .cta__actions{margin:0 0 28px}
+#contact .hero__actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+#contact .form{display:grid;gap:18px;text-align:left}
+#contact .field{display:grid;gap:8px}
+#contact .field label{font-size:14px;font-weight:700}
+#contact .field input,#contact .field textarea{font:inherit;color:#1c1c1c;
+  background:#fff;border:1px solid rgba(0,0,0,.3);border-radius:6px;padding:12px 14px}
+#contact .field textarea{min-height:150px;resize:vertical}
+#contact .btn{display:inline-flex;align-items:center;gap:8px;font:inherit;
+  color:#fff;background:#1c1c1c;border:0;border-radius:6px;padding:14px 26px;
+  text-decoration:none;cursor:pointer}
+#contact .btn--ghost{color:#1c1c1c;background:transparent;
+  box-shadow:inset 0 0 0 1.5px #1c1c1c}
+#contact .ic{flex:none}
+#contact .form__note{font-size:12px;opacity:.7;margin:0}
+#contact .form__done{display:none}
+/* 値の入らなかった任意欄は行ごと畳む（テンプレの「無ければ行ごと削る」の実装。
+   :has() 非対応のブラウザでは従来どおり空欄が残るだけで、悪化はしない） */
+dd:empty{display:none !important}
+div:has(> dd:empty){display:none !important}
+#privacy-policy{padding:56px 20px;font-size:13px;line-height:2}
+#privacy-policy .narrow{max-width:720px;margin:0 auto}
+#privacy-policy h2{font-size:18px;margin:0 0 16px}
+#privacy-policy h3{font-size:14px;margin:20px 0 6px}
+</style>
 </head>
 <body>
-<div class="lp t-lookbook d-classica m-corner g-magazine h-engrand mn-rows cl-invert">
-<nav class="vbar" aria-label="デザイン案の切り替え"><div class="wrap vbar__inner"><span class="vbar__note">エレノアがほぐしのGoo 荻窪南口店様へのご提案として作成した見本です。ほぐしのGoo 荻窪南口店様ご自身が公開されているものではありません。</span><ul class="vbar__list"><li><a class="vbar__link" href="../">1　料金明快</a></li><li><a class="vbar__link" href="../2/">2　静かな開幕</a></li><li><a class="vbar__link" href="./" aria-current="page">3　スタイル主役</a></li></ul></div></nav>
-<header class="hero hero--mosaic" id="hero"><div class="wrap hero__grid"><div><span class="hero__kicker">マッサージ・東京都杉並区荻窪</span><h1 class="hero__title">荻窪南口のマッサージ。今日のこりに手をあてます</h1><p class="hero__lead">ほぐしのGoo 荻窪南口店。肩、腰、脚。つらい場所をうかがって、そこを中心にほぐします。コースと時間はご相談のうえでお決めします。</p><div class="hero__actions"><a class="btn" href="#contact"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M8 12.4l2.6 2.6 5.6-5.6"/></svg>ご予約はこちら</a><a class="btn btn--ghost" href="tel:050-1784-7378"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>電話をかける</a></div></div><div class="hero__mosaic" aria-hidden="true"><figure class="hero__cell"><img src="https://images.unsplash.com/photo-1763669029167-fe7a6619219d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8MXx8bWFzc2FnZSUyMHRoZXJhcHklMjBpbnRlcmlvciUyMGVsZWdhbnQlMjBzYWxvbiUyMGludGVyaW9yJTIwY2xhc3NpY3xlbnwxfDB8fHwxNzg2NDYzOTM5fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="" loading="eager"></figure><figure class="hero__cell"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="hero__cell"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="hero__cell"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure></div></div></header>
-<section class="sec" id="gallery"><div class="wrap reveal"><div class="sec__head" data-en="GALLERY"><span class="sec__eyebrow">GALLERY</span><h2>スタイルのご紹介</h2></div><div class="gallery"><figure class="gallery__slot"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="gallery__slot"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="gallery__slot"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="gallery__slot"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure><figure class="gallery__slot"><span class="gallery__mark"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.4" y="4.8" width="17.2" height="14.4" rx="2.4"/><circle cx="9" cy="10" r="1.6"/><path d="M4.2 17.4l4.8-4.6 3.4 3.2 3-2.6 4.4 4"/></svg></span></figure></div><p class="price-note">ここにほぐしのGoo 荻窪南口店様のスタイルのお写真を掲載します。</p></div></section>
-<section class="sec sec--panel" id="menu"><div class="narrow reveal"><div class="sec__head" data-en="MENU"><span class="sec__eyebrow">MENU</span><h2>メニュー・料金</h2></div><div class="price-lead"><p class="price-lead__label">料金について</p><p class="price-lead__value">お問い合わせください</p><div class="price-lead__actions"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>電話で予約する</a><a class="btn btn--ghost" href="#contact"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21.4S19 15.2 19 10.4a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10.4" r="2.6"/></svg>問い合わせ先を見る</a></div></div><p class="price-note">ここにほぐしのGoo 荻窪南口店様の料金表を掲載します。</p><p class="price-note">コースと所要時間は複数ご用意しています。どこをどれくらいほぐしたいか、お電話でお聞かせください。</p></div></section>
-<section class="facts" id="quick_facts"><div class="wrap"><ul class="facts__list"><li class="facts__item"><span class="facts__icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21.4S19 15.2 19 10.4a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10.4" r="2.6"/></svg></span><div><p class="facts__label">所在地</p><p class="facts__value">日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405</p></div></li><li class="facts__item"><span class="facts__icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 6.6V12h4.6"/></svg></span><div><p class="facts__label">営業時間</p><p class="facts__value facts__value--sm">月曜日: 10時00分～23時00分
-火曜日: 10時00分～23時00分
-水曜日: 10時00分～23時00分
-木曜日: 10時00分～23時00分
-金曜日: 10時00分～23時00分
-土曜日: 10時00分～23時00分
-日曜日: 10時00分～23時00分</p></div></li><li class="facts__item"><span class="facts__icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg></span><div><p class="facts__label">ご予約</p><p class="facts__value">050-1784-7378</p></div></li></ul></div></section>
-<section class="sec" id="flow"><div class="narrow reveal"><div class="sec__head" data-en="FLOW"><span class="sec__eyebrow">FLOW</span><h2>当日の流れ</h2></div><ol class="steps"><li class="step"><span class="step__no">1</span><div><h3 class="step__title">ご予約</h3><p class="step__body">お電話でご希望の日時をお伝えください。気になる場所も一緒にうかがいます。</p></div></li><li class="step"><span class="step__no">2</span><div><h3 class="step__title">つらい所を確認</h3><p class="step__body">来店後、こりを感じる場所と体調をおうかがいしてから始めます。</p></div></li><li class="step"><span class="step__no">3</span><div><h3 class="step__title">ほぐしていく</h3><p class="step__body">うかがった場所を中心に手をあてます。強さは途中でも変えられます。</p></div></li><li class="step"><span class="step__no">4</span><div><h3 class="step__title">仕上げとご案内</h3><p class="step__body">全体を整えて終わります。気になった箇所があればお伝えします。</p></div></li></ol></div></section>
-<section class="sec" id="access"><div class="wrap reveal"><div class="sec__head" data-en="ACCESS"><span class="sec__eyebrow">ACCESS</span><h2>アクセス・営業時間</h2></div><div class="info"><div class="info__item"><span class="info__icon"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21.4S19 15.2 19 10.4a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10.4" r="2.6"/></svg></span><div><p class="info__label">所在地</p><p>日本、〒167-0051 東京都杉並区荻窪５丁目３０−１２ グローリアビル 405</p></div></div><div class="info__item"><span class="info__icon"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg></span><div><p class="info__label">電話番号</p><p>050-1784-7378</p></div></div><div class="info__item"><span class="info__icon"><svg class="ic" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 6.6V12h4.6"/></svg></span><div><p class="info__label">営業時間</p><p class="info__hours">月曜日: 10時00分～23時00分
-火曜日: 10時00分～23時00分
-水曜日: 10時00分～23時00分
-木曜日: 10時00分～23時00分
-金曜日: 10時00分～23時00分
-土曜日: 10時00分～23時00分
-日曜日: 10時00分～23時00分</p></div></div></div><p class="map-link"><a href="https://www.google.com/maps/search/?api=1&amp;query=%E6%97%A5%E6%9C%AC%E3%80%81%E3%80%92167-0051%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%9D%89%E4%B8%A6%E5%8C%BA%E8%8D%BB%E7%AA%AA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%93%EF%BC%90%E2%88%92%EF%BC%91%EF%BC%92%20%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%AA%E3%82%A2%E3%83%93%E3%83%AB%20405" target="_blank" rel="noopener noreferrer"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21.4S19 15.2 19 10.4a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10.4" r="2.6"/></svg><span>Googleマップで場所を見る</span></a></p></div></section>
-<section class="sec" id="contact"><div class="narrow reveal"><div class="cta"><h2>手でほぐしにきてください</h2><p class="cta__body">つらい場所とご希望の日時をお電話でお伝えください。空き状況をご案内します。</p><div class="cta__actions"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>電話をかける</a></div></div><div class="hero__actions"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>050-1784-7378</a><a class="btn btn--ghost" href="mailto:t.osuka@locaop.co.jp"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5.4" width="18" height="13.2" rx="2.4"/><path d="M3.6 7.2 12 13.2l8.4-6"/></svg>メールで問い合わせる</a></div></div></section>
-<div class="sticky" role="complementary" aria-label="予約導線"><div class="sticky__inner"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>電話</a><a class="btn btn--ghost" href="#contact"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 21.4S19 15.2 19 10.4a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10.4" r="2.6"/></svg>連絡先</a></div></div>
-<script>
-(function(){
-  var els=document.querySelectorAll('.reveal');
-  function showAll(){for(var i=0;i<els.length;i++)els[i].classList.add('is-in');}
-  setTimeout(showAll,3000);
-  try{
-    if(!('IntersectionObserver' in window)){showAll();return;}
-    var io=new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}
-      });
-    },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
-    for(var i=0;i<els.length;i++)io.observe(els[i]);
-  }catch(err){showAll();}
-})();
-</script>
+<nav class="vbar" aria-label="デザイン案の切り替え"><div class="wrap vbar__inner"><span class="vbar__note">エレノアがほぐしのGoo 荻窪南口店様へのご提案として作成した見本です。ほぐしのGoo 荻窪南口店様ご自身が公開されているものではありません。</span><ul class="vbar__list"><li><a class="vbar__link" href="../">1　誠実な開示</a></li><li><a class="vbar__link" href="../2/">2　静謐な空気</a></li><li><a class="vbar__link" href="./" aria-current="page">3　作品で選ぶ（リッチプラン専用デザイン）</a></li></ul></div></nav>
+
+
+<div class="opening" aria-hidden="true">
+  <span class="opening__name">HAKUSHI</span>
+  <span class="opening__rule"></span>
 </div>
+
+<header>
+  <span class="brand">
+    HOGUSHI NO GOO
+  </span>
+  <nav>
+    <a href="#collection">COLLECTION</a>
+    <a href="#menu">MENU</a>
+    <a href="#concept">CONCEPT</a>
+    <a href="#access">ACCESS</a>
+    <a class="reserve-link" href="#reserve">RESERVATION<span class="plus"></span></a>
+  </nav>
+</header>
+
+<main>
+
+  
+  <div class="cover">
+    <div class="cover__strip">
+      <div class="ph"><img src="https://images.unsplash.com/photo-1741522509407-41cfe73b0b75?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8NHx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="表紙" loading="eager" fetchpriority="high" decoding="async"></div>
+      <div class="ph"><img src="https://images.unsplash.com/photo-1700522924565-9fad1c05469e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8NXx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="表紙" loading="lazy" decoding="async"></div>
+      <div class="ph"><img src="https://images.unsplash.com/photo-1701916672756-615f56fb0d4e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8Nnx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="表紙" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="cover__meta">
+      <p class="issue">
+        <span class="issue__label">COLLECTION</span>
+        <span class="issue__no">No.01</span>
+        <span class="issue__sub">2026 SUMMER</span>
+      </p>
+      <p class="cover__who">
+        <span class="np">東京都杉並区荻窪の</span><span class="np">もみほぐしのお店</span><span class="np">ほぐしのGoo 荻窪南口店</span>
+      </p>
+    </div>
+  </div>
+
+  
+  <div class="statement">
+    <h1 class="statement__en">
+      <span class="ln"><span class="np">RELAX</span><span class="np">AND</span><span class="np">UNWIND</span></span><span class="ln"><span class="np">DAILY</span><span class="np">IN</span><span class="np">OGIKUBO</span></span>
+    </h1>
+    <p class="lead fade-up">
+      <span class="np">仕事帰りにも、</span><span class="np">休みの日の午後にも。</span><span class="np">ほぐしのGoo 荻窪南口店は</span><span class="np">毎日10時から23時まで、</span><span class="np">こわばった体を</span><span class="np">ゆっくりほぐす時間があります。</span>
+    </p>
+  </div>
+
+  
+  <section id="collection" class="sec">
+    <div class="sec__inner">
+      <div class="sec__head">
+        <span class="num" aria-hidden="true">01</span>
+        <p class="sec__no">No.01</p>
+        <h2 class="sec__en">COLLECTION</h2>
+        <p class="sec__jp">お店のこと</p>
+      </div>
+      <div class="rail fade-up" aria-hidden="true">
+        <span class="rail__en">COLLECTION</span><span class="rail__line"></span>
+      </div>
+      <div class="sec__body">
+        <p class="lead fade-up">
+          <span class="np">荻窪の街で、</span><span class="np">肩や腰のはりが気になるときに</span><span class="np">立ち寄れる場所です。</span><span class="np">その日の体調をうかがってから、</span><span class="np">力加減を決めていきます。</span>
+        </p>
+        <div class="gallery">
+          <figure class="g1">
+            <div class="ph wipe"><img src="https://images.unsplash.com/photo-1706795033796-0057e5864e6d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8N3x8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="作品" loading="lazy" decoding="async"></div>
+            <figcaption class="cap">
+              <span>OPEN DAILY</span>
+              <span class="jp">毎日営業</span>
+            </figcaption>
+          </figure>
+          <figure class="g2">
+            <div class="ph wipe wipe-d1"><img src="https://images.unsplash.com/photo-1662467191671-1efa5752e960?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8NXx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDJ8fHwxNzg2NzY4MDQ5fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="作品" loading="lazy" decoding="async"></div>
+            <figcaption class="cap">
+              <span>UNTIL 23:00</span>
+              <span class="jp">夜23時まで</span>
+            </figcaption>
+          </figure>
+          <figure class="g3">
+            <div class="ph wipe"><img src="https://images.unsplash.com/photo-1675159364615-38e1f6b62282?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8NXx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDB8fHwxNzg2NzY4MDQ2fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="作品" loading="lazy" decoding="async"></div>
+            <figcaption class="cap">
+              <span>BODY CARE</span>
+              <span class="jp">もみほぐし</span>
+            </figcaption>
+          </figure>
+          <figure class="g4">
+            <div class="ph wipe"><img src="https://images.unsplash.com/photo-1542926508-6f7c3e859c54?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8Nnx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDJ8fHwxNzg2NzY4MDQ5fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="作品" loading="lazy" decoding="async"></div>
+            <figcaption class="cap">
+              <span>OGIKUBO</span>
+              <span class="jp">杉並区荻窪</span>
+            </figcaption>
+          </figure>
+          <figure class="g5">
+            <div class="ph wipe wipe-d1"><img src="https://images.unsplash.com/photo-1706795033735-823bb5fde87b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8OHx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdHlsZXxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="作品" loading="lazy" decoding="async"></div>
+            <figcaption class="cap">
+              <span>PHONE & MAIL</span>
+              <span class="jp">電話・メール</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="menu" class="sec sec--alt">
+    <div class="sec__inner">
+      <div class="sec__head">
+        <span class="num" aria-hidden="true">02</span>
+        <p class="sec__no">No.02</p>
+        <h2 class="sec__en">MENU</h2>
+        <p class="sec__jp">コースのご案内</p>
+      </div>
+      <div class="rail fade-up" aria-hidden="true">
+        <span class="rail__en">MENU</span><span class="rail__line"></span>
+      </div>
+      <div class="sec__body">
+        <ul class="menu fade-up">
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">BODY CARE</span>
+              <h3>全身もみほぐし</h3>
+            </div>
+            <p><span class="np">首から背中、</span><span class="np">脚まで順にたどり、</span><span class="np">こりを感じる場所を</span><span class="np">重点的にほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">60分／90分</span>
+            </span>
+          </li>
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">NECK & SHOULDER</span>
+              <h3>首・肩のもみほぐし</h3>
+            </div>
+            <p><span class="np">デスクワークで</span><span class="np">固まりやすい</span><span class="np">首すじと肩まわりを</span><span class="np">ていねいにほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">30分／60分</span>
+            </span>
+          </li>
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">BACK & WAIST</span>
+              <h3>背中・腰のもみほぐし</h3>
+            </div>
+            <p><span class="np">長く座る一日で</span><span class="np">張りが出やすい</span><span class="np">背中と腰まわりをほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">30分／60分</span>
+            </span>
+          </li>
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">FOOT CARE</span>
+              <h3>足裏・ふくらはぎ</h3>
+            </div>
+            <p><span class="np">歩いた日の脚に。</span><span class="np">足裏からふくらはぎまで</span><span class="np">ゆっくりほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">30分／60分</span>
+            </span>
+          </li>
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">HEAD CARE</span>
+              <h3>ヘッドケア</h3>
+            </div>
+            <p><span class="np">画面を見る時間が</span><span class="np">長い方へ。</span><span class="np">頭から首のつけ根までを</span><span class="np">やさしくほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">20分／30分</span>
+            </span>
+          </li>
+          <li class="card">
+            <div class="card__head">
+              <span class="card__en">HAND & ARM</span>
+              <h3>腕・手のもみほぐし</h3>
+            </div>
+            <p><span class="np">手や腕を</span><span class="np">よく使う方へ。</span><span class="np">指先から肩口までほぐします。</span></p>
+            <span class="card__pr">—
+              <span class="card__time">20分／30分</span>
+            </span>
+          </li>
+        </ul>
+        <p class="menu-note fade-up">
+          <span class="np">表示の時間はコースの目安です。</span><span class="np">料金・オプションは</span><span class="np">お電話でご案内しております。</span><span class="np">施術の内容や時間の組み合わせは</span><span class="np">ご相談のうえ決めさせていただきます。</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="concept" class="sec">
+    <div class="sec__inner">
+      <div class="sec__head">
+        <span class="num" aria-hidden="true">03</span>
+        <p class="sec__no">No.03</p>
+        <h2 class="sec__en">CONCEPT</h2>
+        <p class="sec__jp">私たちの考え方</p>
+      </div>
+      <div class="rail fade-up" aria-hidden="true">
+        <span class="rail__en">CONCEPT</span><span class="rail__line"></span>
+      </div>
+      <div class="sec__body">
+        <div class="concept">
+          <div class="fade-up">
+            <p class="concept__h">
+              <span class="np">その日の体に合わせて</span><span class="np">力加減を決めます</span>
+            </p>
+            <p class="lead lead--wide">
+              <span class="np">強く押せばよい、</span><span class="np">というものではないと</span><span class="np">考えています。</span><span class="np">はじめての方には</span><span class="np">どこがつらいのかを</span><span class="np">うかがってから</span><span class="np">はじめます。</span><span class="np">途中で強さを</span><span class="np">変えたくなったら</span><span class="np">遠慮なくお声かけください。</span><span class="np">痛みを我慢したまま</span><span class="np">受ける時間にはしません。</span>
+            </p>
+          </div>
+          <div class="concept__ph ph wipe fade-up"><img src="https://images.unsplash.com/photo-1611073615830-9f76902c10fe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8MXx8bWFzc2FnZSUyMHRoZXJhcHklMjBoYW5kcyUyMGNsb3NldXB8ZW58MXwwfHx8MTc4Njc2ODA0NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="施術風景" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="nailist" class="sec sec--alt">
+    <div class="sec__inner">
+      <div class="sec__head">
+        <span class="num" aria-hidden="true">04</span>
+        <p class="sec__no">No.04</p>
+        <h2 class="sec__en">NAILIST</h2>
+        <p class="sec__jp">担当するスタッフ</p>
+      </div>
+      <div class="rail fade-up" aria-hidden="true">
+        <span class="rail__en">NAILIST</span><span class="rail__line"></span>
+      </div>
+      <div class="sec__body">
+        <div class="people">
+          <div class="person fade-up">
+            <div class="ph wipe"><img src="https://images.unsplash.com/photo-1701917094553-aa3c13f6d16c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8Nnx8bWFzc2FnZSUyMHRoZXJhcHklMjBwb3J0cmFpdHxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="人" loading="lazy" decoding="async"></div>
+            <p class="person__name">施術担当スタッフ</p>
+            <p class="person__en">STAFF / もみほぐし担当</p>
+            <p class="person__note"><span class="np">その日の体調と</span><span class="np">つらい場所を</span><span class="np">うかがってから</span><span class="np">力加減を決めます。</span><span class="np">無理には押しません。</span></p>
+          </div>
+          <div class="person fade-up">
+            <div class="ph wipe wipe-d1"><img src="https://images.unsplash.com/photo-1745327883508-b6cd32e5dde5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8MXx8bWFzc2FnZSUyMHRoZXJhcHklMjBwb3J0cmFpdHxlbnwxfDF8fHwxNzg2NzY4MDQ4fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="人" loading="lazy" decoding="async"></div>
+            <p class="person__name">ご予約受付担当</p>
+            <p class="person__en">RECEPTION / ご予約・ご相談</p>
+            <p class="person__note"><span class="np">施術者の資格や経歴、</span><span class="np">コースの選び方は</span><span class="np">お電話でも</span><span class="np">お答えします。</span><span class="np">はじめての方もどうぞ。</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="access" class="sec">
+    <div class="sec__inner">
+      <div class="sec__head">
+        <span class="num" aria-hidden="true">05</span>
+        <p class="sec__no">No.05</p>
+        <h2 class="sec__en">ACCESS</h2>
+        <p class="sec__jp">ご予約・アクセス</p>
+      </div>
+      <div class="rail fade-up" aria-hidden="true">
+        <span class="rail__en">ACCESS</span><span class="rail__line"></span>
+      </div>
+      <div class="sec__body">
+        <div class="info">
+          <dl class="fade-up">
+            <div><dt>住所</dt><dd>東京都杉並区荻窪５丁目３０−１２ グローリアビル 405</dd></div>
+            <div><dt>電話</dt><dd>050-1784-7378</dd></div>
+            <div><dt>営業時間</dt><dd>10:00〜23:00</dd></div>
+            <div><dt>定休日</dt><dd>—</dd></div>
+            <div><dt>席数</dt><dd>ご予約・お問い合わせはお電話またはメールで承ります</dd></div>
+            <div><dt>アクセス</dt><dd>—</dd></div>
+          </dl>
+          <div class="ph fade-up"><img src="https://images.unsplash.com/photo-1756787083449-f5425209237d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMDIzODQyfDB8MXxzZWFyY2h8Nnx8bWFzc2FnZSUyMHRoZXJhcHklMjBzdG9yZWZyb250JTIwZXh0ZXJpb3J8ZW58MXwwfHx8MTc4Njc2ODA0Nnww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="外観" loading="lazy" decoding="async"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="reserve" class="reserve">
+    <div class="fade-up">
+      <p class="reserve__en">RESERVATION</p>
+      <p class="reserve__jp">
+        <span class="np">ご予約の空き状況は</span><span class="np">お電話でご確認ください。</span>
+      </p>
+      <a class="btn" href="#contact" aria-label="WEBで予約する">WEB予約<span class="plus"></span></a>
+      <p class="reserve__sub">
+        <span class="np">お電話は毎日10時から23時まで承ります。</span><span class="np">メールでのご相談もお受けします。</span><span class="np">はじめての方は気になることをお尋ねください。</span><span class="np">所在地は東京都杉並区荻窪です。</span><span class="np">詳しい道順はお電話でご案内します。</span>
+      </p>
+    </div>
+  </section>
+<section class="sec" id="contact"><div class="narrow reveal"><div class="cta"><h2>ご予約・お問い合わせ</h2><p class="cta__body">ご相談・お見積りは無料です。お気軽にご連絡ください。</p><div class="cta__actions"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>電話をかける</a></div></div><div class="hero__actions"><a class="btn" href="tel:050-1784-7378"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="6" y="2.8" width="12" height="18.4" rx="2.6"/><path d="M10.4 18.4h3.2"/></svg>050-1784-7378</a><a class="btn btn--ghost" href="mailto:t.osuka@locaop.co.jp"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5.4" width="18" height="13.2" rx="2.4"/><path d="M3.6 7.2 12 13.2l8.4-6"/></svg>メールで問い合わせる</a></div></div></section>
+
+</main>
+
+
+<footer>
+  <span class="brand">HOGUSHI NO GOO OGIKUBO</span>
+  <p>
+    東京都杉並区荻窪５丁目３０−１２ グローリアビル 405<br>050-1784-7378 10:00〜23:00
+  </p>
+  <small>© ほぐしのGoo 荻窪南口店</small>
+</footer>
+
+<div class="sp-bar">
+  <a href="tel:0300000000">電話で予約</a>
+  <a href="#reserve">WEB予約</a>
+</div>
+
+<script>
+  // スクロール出現（IntersectionObserver）
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+  },{threshold:.14});
+  document.querySelectorAll('.fade-up,.wipe,.num').forEach(function(el){ io.observe(el); });
+
+</script>
+<p class="photo-credit" style="font-size:11px;text-align:center;padding:12px 16px;margin:0">Photo by <a href="https://unsplash.com/@massage_a_domicile?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Massage a Domicile</a>、<a href="https://unsplash.com/@matkilkeary?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Mat Kilkeary</a>、<a href="https://unsplash.com/@taylorheeryphoto?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Taylor Heery</a>、<a href="https://unsplash.com/@anyutakejbalo?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Anna Keibalo</a>、<a href="https://unsplash.com/@olgavolkovitskaia?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">olga volkovitskaia</a>、<a href="https://unsplash.com/@ozzzyphotos?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Oswald Elsaboath</a>、<a href="https://unsplash.com/@judowoodo_?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Jude Infantini</a>、<a href="https://unsplash.com/@anyutakejbalo?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Anna Keibalo</a>、<a href="https://unsplash.com/@thlt_lcx?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">THLT LCX</a>、<a href="https://unsplash.com/@taylorheeryphoto?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Taylor Heery</a>、<a href="https://unsplash.com/@jakubklucky?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Jakub Klucký</a>、<a href="https://unsplash.com/@brother_yoon?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Brother Yoon</a> on <a href="https://unsplash.com/?utm_source=Eleanor+LP+Studio&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>
 <section id="privacy-policy" class="legal">
   <div class="narrow">
     <h2>プライバシーポリシー</h2>
@@ -606,5 +721,44 @@ m-* の規則に勝つ */
   <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('cookie_ok','1')" style="margin-left:16px;background:#3498db;color:#fff;border:none;padding:6px 16px;cursor:pointer;border-radius:4px;">同意する</button>
 </div>
 <script>if(!localStorage.getItem('cookie_ok'))document.getElementById('cookie-banner').style.display='block';</script>
+<script data-vbar-offset>
+(function(){
+  var bar = document.querySelector('nav.vbar');
+  if (!bar) return;
+  var pinned = [];
+  var scan = function(){
+    pinned = [];
+    var all = document.body.querySelectorAll('*');
+    for (var i = 0; i < all.length; i++) {
+      var el = all[i];
+      if (el === bar || bar.contains(el)) continue;
+      var cs = getComputedStyle(el);
+      if (cs.position !== 'fixed') continue;
+      /* 元の top は一度だけ測って覚える。再スキャンで**自分が書いた値**を
+         読むと「top が 60 を超えたから対象外」と判定してしまい、
+         下げたきり追随が止まる（2026-08-15 実測） */
+      var top = el.__vbarTop;
+      if (top === undefined) {
+        top = parseFloat(cs.top);
+        if (isNaN(top) || top > 60) continue;
+        el.__vbarTop = top;
+      }
+      if (el.getBoundingClientRect().height >= innerHeight * 0.9) continue;
+      pinned.push({el: el, top: top});
+    }
+  };
+  var sync = function(){
+    var d = Math.max(0, bar.getBoundingClientRect().bottom);
+    for (var i = 0; i < pinned.length; i++) {
+      pinned[i].el.style.top = (pinned[i].top + d) + 'px';
+    }
+  };
+  var refresh = function(){ scan(); sync(); };
+  addEventListener('scroll', sync, {passive: true});
+  addEventListener('resize', refresh);
+  addEventListener('load', refresh);
+  refresh();
+})();
+</script>
 </body>
 </html>
